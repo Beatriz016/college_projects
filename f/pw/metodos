@@ -1,0 +1,9 @@
+entidade -> minusculo
+
+primitivo -> garante que nao esta null 
+
+com o stream() vc consegue filtrar uma lista
+
+.collect(Collectors.toList()) coletar os dados e transformar em uma lista
+
+recomenda se utilizar o remove com variavel primitiva

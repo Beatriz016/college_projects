@@ -1,0 +1,150 @@
+    /* margin: top, right, bottom, left */
+    /* margin: top-bottom, left-right */
+    
+    
+    
+                <!-- *ngIf="dataativos.favoritos == true"; else #teste -->
+                <!-- <img class="img_fav" id="img_fav" src="../assets/add_fav.png" > -->
+                <!-- *ngClass="'icon_favoritado'" -->
+                
+                
+                
+                
+                // icon.className.replace("","icon_favoritado")
+                
+                // @Output() filtroSelecionado  : EventEmitter<string> = new EventEmitter();
+                
+                
+                
+                
+                
+// comentarios...
+
+
+//  filtro = [ 'Selecionar Filtro', 'Menor Preço', 'Maior Preço', 'Menor Variação', 'Maior Variação'];
+
+//  filtragem(opcao : string) {
+//   this.filtro.push(opcao)
+
+
+//   if (opcao == "menor_preco") {
+    
+  
+//     this.data.sort((a,b) => {
+//       return a.price - b.price
+//     })
+
+  // } else if (opcao == "maior_preco") {
+  //   this.data.sort((a, b) => {
+  //     return b.price - a.price
+  //   })
+
+  // } else if (selecionar_filtro == "menor_variacao") {
+  //   this.importaFiltro.data.sort((a, b) => {
+  //     return a.variation - b.variation
+  //   })
+
+  // } else if(selecionar_filtro == "maior_variacao") {
+  //   this.importaFiltro.data.sort((a,b) => {
+  //     return b.variation - a.variation
+  //   })
+  // }
+  
+//  }
+
+// }
+
+
+
+
+
+// import { Chart, LineController, LineElement, PointElement, LinearScale,CategoryScale } from 'chart.js';
+// import { DataAtivos } from 'src/app/Interface';
+
+
+
+
+
+<!-- <app-filtro></app-filtro>  -->
+
+
+
+
+<!-- [(ngModel)]="filtragem" (change)="filtragem()" -->
+<!-- <option value="Selec" *ngFor="let filtrar of filtro; let i = index">{{filtrar}}</option> -->
+<!-- *ngFor="let filtrar of filtro" -->     
+<!-- {{ filtrar }} -->
+
+
+
+
+//console.log(this.filtroAtivos)
+
+
+
+
+// filtro = [ 'Selecionar Filtro', 'Menor Preço', 'Maior Preço', 'Menor Variação', 'Maior Variação'];
+
+  //  filtragem(opcao : string) {
+     
+  
+  //   if (opcao == "menor_preco") {
+  
+  //     this.importaFiltro.data.sort((a,b) => {
+  //       return a.price - b.price
+  //     })
+
+  //   } else if (opcao == "maior_preco") {
+  //     this.data.sort((a, b) => {
+  //       return b.price - a.price
+  //     })
+
+  //   } else if (selecionar_filtro == "menor_variacao") {
+  //     this.importaFiltro.data.sort((a, b) => {
+  //       return a.variation - b.variation
+  //     })
+
+  //   } else if(selecionar_filtro == "maior_variacao") {
+  //     this.importaFiltro.data.sort((a,b) => {
+  //       return b.variation - a.variation
+  //     })
+  //   }
+    
+  //  }
+  
+  
+  // import { AtivoCardComponent } from 'src/app/componentes/ativo-card';
+  
+  
+  <!-- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> -->
+  
+  import Stocks from '../stocks.json';
+  
+      // FooterComponent,
+    // FiltroComponent,
+    
+    //  import { AtivoCardComponent } from '../componentes/ativo-card';
+    
+    import { FiltroComponent } from '../componentes/filtro';
+    
+    import { FooterComponent } from '../componentes';
+    
+        /* margin: top, right, bottom, left */
+    /* margin: top-bottom, left-right */
+    
+    
+    /* justify-content: space-between; */
+    
+        /* background-color: #3D3D3D; */
+        
+        <!-- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> -->
+        
+        
+        //import { DadosService } from './dados/dados.service';
+// import { HttpClientModule } from '@angular/common/http';
+// import { ServicosService } from './servicos/servicos.service';
+// import { ChartComponent } from './componentes';
+
+
+// var icon = document.getElementById(`mais_${i}`);
+

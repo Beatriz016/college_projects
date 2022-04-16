@@ -1,0 +1,17 @@
+interface é uma forma de forçar a implementar os metodos sem ter a herança - implements
+
+todo o metodo por padrao/obrigatoriamente dentro da interface é abstrato
+
+tipo final é uma constante
+
+uma variavel no JAVA em caixa alta é uma constante
+
+uma classe implementa uma interface - interface
+
+udo do metodo abstrado está associado a  implementações diferentes de um mesmo metodo
+
+interface não é instanciavel
+
+
+
+

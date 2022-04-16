@@ -1,0 +1,44 @@
+ //5.Elaborar um programa que solicita que o usuário digite os nomes de
+    //5 modelos de carros (exemplo: Gol, Vectra, Monza, Fusca, Corsa), que
+    // deverão ser armazenados em um vetor. Depois, o usuário deverá digitar
+    // o rendimento desses carros, ou seja, quantos quilômetros cada um deles
+    // faz com um litro de combustível. O rendimento de cada modelo deverá ser
+    // armazenado em outro vetor. O programa deverá exibir qual o modelo de
+    // carro mais econômico.
+
+    public static void main(String[] args) {
+        Scanner read = new Scanner(System.in);
+
+        String[] carModels = new String[5];
+        int[] incomeCar = new int[5];
+
+        System.out.println("Digite 5 modelos de carros");
+
+        for(int insertModel = 0; insertModel < carModels.length; insertModel++) {
+
+            carModels[insertModel] = read.nextLine();
+        }
+
+
+
+        for(int insertIncome = 0; insertIncome < incomeCar.length; insertIncome++) {
+            System.out.println("Digite o rendimento de cada modelo: ");
+
+            incomeCar[insertIncome] = read.nextInt();
+        }
+
+
+        System.out.println("modelo mais economico: ");
+
+        int store = 0;
+        String model = "";
+        for (int i = 0; i < incomeCar.length; i++) {
+            if(incomeCar[i] > store) {
+                store = incomeCar[i];
+                model = carModels[i];
+
+            }
+
+        }
+        System.out.println("O " + model + " é o mais economico, com " + store + " de rendimento");
+    }

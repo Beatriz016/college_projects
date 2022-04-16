@@ -1,0 +1,7 @@
+1 - Abstração, pois com ela podemos de fato implementar classes, não assinar o metodo e também implmentar classes herdeiras.
+
+2 - Não é necessario ter 2 lists pois como ambas as classes herdam da mesma classe, podemos utilizar 1 list
+
+3 - Há polimorfismo, pois os metos utilizam sobrecarga.
+
+
