@@ -5,11 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9986b962-f743-4ad2-9563-eb4d5a27cedc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/restkit/RESTKit_Setting.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../lista_estatica_csv/src/main/java/ListaObj.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../lista_estatica_csv/src/main/java/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../lista_estatica_csv/src/main/java/Teste.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +35,7 @@
   "keyToString": {
     "RESTKit.sync": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/beatriz.cardoso@VALEMOBI.CORP/Documentos/college_projects/f/Est.Arm/lista-estatica-generica"
+    "last_opened_file_path": "/home/beatriz.cardoso@VALEMOBI.CORP/Documentos/college_projects/f/pw/Material de Apoio-aula_data.sql"
   }
 }]]></component>
   <component name="RecentsManager">

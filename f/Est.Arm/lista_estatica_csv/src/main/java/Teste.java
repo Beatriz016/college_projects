@@ -73,7 +73,6 @@ public class Teste {
         }
 
         try {
-           // System.out.printf("%6s %-14s %7s %7s %14s\n","CÓDIGO","NOME","PREÇO","NOTA","FATURAMENTO");
             while (lerArquivo.hasNext()) {
                 int codigo = lerArquivo.nextInt();
                 String nome = lerArquivo.next();
@@ -115,6 +114,8 @@ public class Teste {
     public static void main(String[] args) {
         ListaObj <Produto> listaProduto = new ListaObj<>(5);
 
+        Scanner ler = new Scanner(System.in);
+
         Produto produto =  new Produto(123,"Notebook",10.50,3);
         Produto produto02 =  new Produto(456,"Mouse",2.50,1);
         Produto produto03 =  new Produto(789,"Teclado",10.40,3);
@@ -145,7 +146,30 @@ public class Teste {
         produto05.comprar(10);
         System.out.println(produto05);
 
-        listaProduto.exibe();
+        Integer opcao = 0;
+
+        do {
+            System.out.println("o que você deseja fazer ?" +
+                    "gravar arquivo 6," +
+                    "ler arquivo e ver arquivo 7");
+
+            switch (opcao) {
+                case 6 :
+                    gravaArquivoCsv(listaProduto, "produtos");
+                    break;
+
+                case 7 :
+                    lerArquivoCsv("produtos");
+                    listaProduto.exibe();
+
+            }
+
+        } while (opcao != 8);
+
+
+//lista.adiciona(new filme(id,nome))
+
+        //listaProduto.exibe();
         gravaArquivoCsv(listaProduto, "produtos");
         lerArquivoCsv("produtos");
     }
